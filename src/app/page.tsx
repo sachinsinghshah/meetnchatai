@@ -73,7 +73,7 @@ export default function Home() {
           placeholder="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          type="text"
+          type="password"
         />
         <Button onClick={onSubmit}>Create user</Button>
       </div>
@@ -88,7 +88,7 @@ export default function Home() {
           placeholder="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          type="text"
+          type="password"
         />
         <Button onClick={onLogin}>Create user</Button>
       </div>
